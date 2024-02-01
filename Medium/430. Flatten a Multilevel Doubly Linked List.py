@@ -11,7 +11,7 @@ class Node:
 class Solution:
     def flatten(self, head: 'Optional[Node]') -> 'Optional[Node]':
         #check to see if there is no head node given
-        if not heard: return head
+        if not head: return head
         #placeholder node
         dummy = Node(0)
         #create a current node holder and a stack that includes head
